@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E73B4B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/BRIGHTOVEN"
+        android:gravity="center"
+        android:text="WHAT´S HERE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textColor="#fd909e"
+        android:backgroundTint="#F4737A"/>
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#fd909e"
+        android:backgroundTint="#F4737A"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Forget password?"
+        android:textColor="#FC9D9F"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------------or------------"
+        android:textColor="#FC9D9F"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="#FC9D9F"/>
+
+
+</LinearLayout>
